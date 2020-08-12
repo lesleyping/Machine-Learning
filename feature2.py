@@ -49,6 +49,7 @@ def get_mr(img_path):
         return out
 
     image_in = cv2.imread(img_path, 0)
+    # Otsu滤波
     threshold, image_BW = cv2.threshold(image_in ,0,255,
             cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 
