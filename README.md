@@ -38,7 +38,7 @@ _涉及到的文件包括：prapare_data.py, prepare_data.sh, feature2.py_
 
 ## 2.Methods
 _涉及到的文件包括：RF_Adaboost.py,RF_Adaboost-multi_classes.py, SVM.py, 
-SVM.sh, knn.py, knn.sh, cnn/*_
+SVM.sh, knn.py, knn.sh, cnn/, lib/_
 
 ### 2.1 AdaBoost
 RF_Adaboost.py和RF_Adaboost-multi_classes.py 分别针对步骤1提取到的特征，实现了图像的二分类与多分类。
@@ -47,6 +47,8 @@ RF_Adaboost.py和RF_Adaboost-multi_classes.py 分别针对步骤1提取到的特
 RF_Adaboost.py和RF_Adaboost-multi_classes.py 分别针对步骤1提取到的特征，实现了图像的二分类与多分类。
 
 ### 2.3 SVM
+- lib 直接从libSVM官网下载的py库文件
+
 SVM.py\
 SVM.sh
 
@@ -72,4 +74,8 @@ data_visualization.py
 并对结果进行可视化与保存，可以显示类别间的差异，验证特征的有效性与可分性
 
 结果展示：
-![lda]()
+![lda](https://github.com/lesleyping/Machine-Learning/blob/master/example-data_visual_resimg/lda.png)
+
+![pca](https://github.com/lesleyping/Machine-Learning/blob/master/example-data_visual_resimg/pca.png)
+
+![t-sne](https://github.com/lesleyping/Machine-Learning/blob/master/example-data_visual_resimg/t-sne.png)
